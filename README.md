@@ -6,9 +6,7 @@ This is a feature plugin that adds a simple service custom post type to your the
 
 This plugin includes a couple common features that are used with custom post types:
 
-* Registers a post type
-* Registers a custom taxonomy
-* Optionally registers a few metaboxes
+* Registers a post type with relevant support
 * Adds the featured image to the admin column display
 * Adds the post count to the admin dashboard
 

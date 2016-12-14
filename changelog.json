@@ -1,5 +1,6 @@
 {
   "0.1.0" : "Initial Release",
   "0.1.1" : "Adds Support for kernl",
-  "0.1.2" : "Version bump to test kernl"
+  "0.1.2" : "Version bump to test kernl",
+  "0.1.3" : "fixes image bug in services list column"
 }

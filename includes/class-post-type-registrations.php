@@ -73,7 +73,7 @@ class SSM_Services_Registrations {
 			'menu_position'   		=> 30,
 			'menu_icon'       		=> 'dashicons-feedback',
 			'has_archive'					=> false,
-			'exclude_from_search'	=> false
+			'exclude_from_search'	=> true
 		);
 
 		$args = apply_filters( 'SSM_Services_args', $args );

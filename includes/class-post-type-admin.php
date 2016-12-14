@@ -63,8 +63,7 @@ class SSM_Services_Admin {
 		global $post;
 		switch ( $column ) {
 			case 'thumbnail':
-				echo get_the_post_thumbnail( $post->ID, array(35, 35) );
-				echo get_the_post_thumbnail( get_the_ID(), array( 35, 35 ) );
+				echo get_the_post_thumbnail( $post->ID, array(50, 50) );
 				break;
 		}
 	}

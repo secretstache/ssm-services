@@ -9,7 +9,7 @@
  * Plugin Name: SSM Services
  * Plugin URI:  http://secretstache.com
  * Description: Enables a Services Custom Post Type.
- * Version:     0.1.2
+ * Version:     0.1.3
  * Author:      Secret Stache Media
  * Author URI:  http://secretstache.com
  * Text Domain: ssm-services
@@ -54,6 +54,15 @@ if ( is_admin() ) {
 
 	$post_type_admin = new SSM_Services_Admin( $post_type_registrations );
 	$post_type_admin->init();
+
+}
+
+
+add_action( 'admin_enqueue_scripts', 'ssm_services_admin_enqueue_scripts' );
+
+function ssm_services_admin_enqueue_scripts() {
+
+  wp_enqueue_style( 'ssm-services-css', plugins_url('admin.css', __FILE__ ) );
 
 }
 
